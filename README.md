@@ -127,3 +127,33 @@ After this initial selection, we used a Python script to:
 - While there seems to be significant overlap between usage of Stable Diffusion and the `diffusers` tag, the two are not mutually interchangeable and further qualitative analysis should be conducted to verify what can actually be said about the usage of the `diffusers` tag.
 - One important point is that over 60% of the repositories (when not filtered by downloads) were consistently indicating no library whatsoever. This value peaked at 80% on one specific timestamp, the 31st of October 2022, and then returned to 67% and then 62%.
 - When the analysis was repeated on repositories with over 30 cumulative downloads, the number of those without a library fell to 1 or 2 per each timestamp, with the exception of 8 (representing almost 9% of the total repositories) on 31st October 2022.
+
+### Results
+
+The analysis has been repeated with both the general and filtered tables, giving the following results. As expected, the number of repositories using the `diffusers` library has grown also relative to the general growth in repositories numbers. 
+The few repositories using "stable-diffusion" as a library are actually the ones created by CompVis, one of the creators of Stable Diffusion.
+
+#### General
+
+| library          | 27_09_2022 | 31_10_2022 | 12_12_2022 | 24_01_2023 |
+|------------------|------------|------------|------------|------------|
+| EveryDream       |          0 |          0 |          2 |          2 |
+| diffusers        |          5 |         48 |        476 |       1386 |
+| fasttext         |          0 |          0 |          1 |          1 |
+| keras            |          0 |          0 |          0 |          1 |
+| nemo             |          0 |          0 |          0 |          1 |
+| paddlenlp        |          0 |          0 |          0 |          3 |
+| pyannote-audio   |          0 |          1 |          1 |          0 |
+| stable-diffusion |          1 |          1 |          3 |          3 |
+| transformers     |         41 |         66 |        143 |        191 |
+
+#### Filtered
+
+| library          | 27_09_2022 | 31_10_2022 | 12_12_2022 | 24_01_2023 |
+|------------------|------------|------------|------------|------------|
+| transformers     |         31 |         46 |         75 |         92 |
+| diffusers        |          5 |         36 |        311 |        708 |
+| pyannote-audio   |          0 |          1 |          1 |          0 |
+| stable-diffusion |          0 |          0 |          1 |          1 |
+
+
