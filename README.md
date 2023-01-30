@@ -130,30 +130,7 @@ After this initial selection, we used a Python script to:
 
 ### Results
 
-The analysis has been repeated with both the general and filtered tables, giving the following results. As expected, the number of repositories using the `diffusers` library has grown also relative to the general growth in repositories numbers. 
+The analysis has been repeated with both the general and filtered tables, giving the results presented as CSV in the `libraries` folder. As expected, the number of repositories using the `diffusers` library has grown also relative to the general growth in repositories numbers. 
 The few repositories using "stable-diffusion" as a library are actually the ones created by CompVis, one of the creators of Stable Diffusion.
-
-#### General
-
-| library          | 27_09_2022 | 31_10_2022 | 12_12_2022 | 24_01_2023 |
-|------------------|------------|------------|------------|------------|
-| EveryDream       |          0 |          0 |          2 |          2 |
-| diffusers        |          5 |         48 |        476 |       1386 |
-| fasttext         |          0 |          0 |          1 |          1 |
-| keras            |          0 |          0 |          0 |          1 |
-| nemo             |          0 |          0 |          0 |          1 |
-| paddlenlp        |          0 |          0 |          0 |          3 |
-| pyannote-audio   |          0 |          1 |          1 |          0 |
-| stable-diffusion |          1 |          1 |          3 |          3 |
-| transformers     |         41 |         66 |        143 |        191 |
-
-#### Filtered
-
-| library          | 27_09_2022 | 31_10_2022 | 12_12_2022 | 24_01_2023 |
-|------------------|------------|------------|------------|------------|
-| transformers     |         31 |         46 |         75 |         92 |
-| diffusers        |          5 |         36 |        311 |        708 |
-| pyannote-audio   |          0 |          1 |          1 |          0 |
-| stable-diffusion |          0 |          0 |          1 |          1 |
 
 
