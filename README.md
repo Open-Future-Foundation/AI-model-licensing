@@ -2,7 +2,7 @@
 
 ## General assumptions and terminology
 
-HuggingFace uses a system of git repositories effectively similar to GitHub, which can contain both code and datasets, but can also be completely empty. The assumptions I based my work on were the following:
+HuggingFace uses a system of git repositories effectively similar to GitHub, which can contain both code and datasets, but can also be completely empty. The assumptions we based our work on were the following:
 
 - We are interested in the license that is used by the repository and we are taking the repository's creator choice as reflective of their intention, independently from the fact that they might have misunderstood the license or its scope.
 - The number of downloads per repository that is displayed for each timestamp is always based on the previous 30 days. This is a limitation of HuggingFace’s data.
