@@ -35,6 +35,7 @@ Beside analysing the usage of each license, we also categorised each license acc
 | cc0-1.0               | Creative Commons Zero v1.0 Universal         | No restrictions / PD    |
 | cc-by-sa-4.0          | Creative Commons Attribution Share Alike 4.0 | Copyleft / SA           |
 | ...                   | ...                                          | ...                     |
+
 Categorising the licenses highlighted some issues with the starting data and forced us to make some choices that we detailed below.
 
 #### Unknown and other
