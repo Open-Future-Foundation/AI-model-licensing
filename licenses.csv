@@ -1,0 +1,62 @@
+license_id,license,category,type
+openrail,OpenRAIL license family,RAIL,models 
+bigscience-openrail-m,BigScience OpenRAIL-M,RAIL,models 
+creativeml-openrail-m,CreativeML OpenRAIL-M,RAIL,models 
+bigscience-bloom-rail-1.0,BigScience BLOOM RAIL 1.0,RAIL,models 
+afl-3.0,Academic Free License v3.0,Permissive / BY ,software 
+apache-2.0,Apache license 2.0,Permissive / BY ,software 
+artistic-2.0,Artistic license 2.0,Permissive / BY ,software 
+bsl-1.0,Boost Software License 1.0,Permissive / BY ,software 
+bsd,BSD license family,Permissive / BY ,software 
+bsd-2-clause,BSD 2-clause “Simplified” license,Permissive / BY ,software 
+bsd-3-clause,BSD 3-clause “New” or “Revised” license,Permissive / BY ,software 
+bsd-3-clause-clear,BSD 3-clause Clear license,Permissive / BY ,software 
+c-uda,Computational Use of Data Agreement,Other use restrictions ,data 
+cc,Creative Commons license family,Non categorizable,Non categorizable
+cc0-1.0,Creative Commons Zero v1.0 Universal,No restrictions / PD,content / data 
+cc-by-2.0,Creative Commons Attribution 2.0,Permissive / BY ,content / data 
+cc-by-2.5,Creative Commons Attribution 2.5,Permissive / BY ,content / data 
+cc-by-3.0,Creative Commons Attribution 3.0,Permissive / BY ,content / data 
+cc-by-4.0,Creative Commons Attribution 4.0,Permissive / BY ,content / data 
+cc-by-sa-3.0,Creative Commons Attribution Share Alike 3.0,Copyleft / SA,content / data 
+cc-by-sa-4.0,Creative Commons Attribution Share Alike 4.0,Copyleft / SA,content / data 
+cc-by-nc-2.0,Creative Commons Attribution Non Commercial 2.0,NC use only ,content / data 
+cc-by-nc-3.0,Creative Commons Attribution Non Commercial 3.0,NC use only ,content / data 
+cc-by-nc-4.0,Creative Commons Attribution Non Commercial 4.0,NC use only ,content / data 
+cc-by-nd-4.0,Creative Commons Attribution No Derivatives 4.0,Other use restrictions ,content / data 
+cc-by-nc-nd-3.0,Creative Commons Attribution Non Commercial No Derivatives 3.0,Other use restrictions ,content / data 
+cc-by-nc-nd-4.0,Creative Commons Attribution Non Commercial No Derivatives 4.0,Other use restrictions ,content / data 
+cc-by-nc-sa-2.0,Creative Commons Attribution Non Commercial Share Alike 2.0,NC use only ,content / data 
+cc-by-nc-sa-3.0,Creative Commons Attribution Non Commercial Share Alike 3.0,NC use only ,content / data 
+cc-by-nc-sa-4.0,Creative Commons Attribution Non Commercial Share Alike 4.0,NC use only ,content / data 
+wtfpl,Do What The F*ck You Want To Public License,No restrictions / PD,software 
+ecl-2.0,Educational Community License v2.0,Permissive / BY ,software 
+epl-1.0,Eclipse Public License 1.0,Copyleft / SA,software 
+epl-2.0,Eclipse Public License 2.0,Copyleft / SA,software 
+eupl-1.1,European Union Public License 1.1,Copyleft / SA,software 
+agpl-3.0,GNU Affero General Public License v3.0,Copyleft / SA,software 
+gfdl,GNU Free Documentation License family,Copyleft / SA,content / data 
+gpl,GNU General Public License family,Copyleft / SA,
+gpl-2.0,GNU General Public License v2.0,Copyleft / SA,software 
+gpl-3.0,GNU General Public License v3.0,Copyleft / SA,software 
+lgpl,GNU Lesser General Public License family,Copyleft / SA,software 
+lgpl-2.1,GNU Lesser General Public License v2.1,Copyleft / SA,software 
+lgpl-3.0,GNU Lesser General Public License v3.0,Copyleft / SA,software 
+isc,ISC,Permissive / BY ,software 
+lppl-1.3c,LaTeX Project Public License v1.3c,Permissive / BY ,software 
+ms-pl,Microsoft Public License,Copyleft / SA,software 
+mit,MIT,Permissive / BY ,software 
+mpl-2.0,Mozilla Public License 2.0,Copyleft / SA,software 
+odc-by,Open Data Commons License Attribution family,Permissive / BY ,data 
+odbl,Open Database License family,Non categorizable,Non categorizable
+openrail++,Open Rail++-M License,RAIL,models 
+osl-3.0,Open Software License 3.0,Copyleft / SA,software 
+postgresql,PostgreSQL License,Permissive / BY ,software 
+ofl-1.1,SIL Open Font License 1.1,Copyleft / SA,content / data 
+ncsa,University of Illinois/NCSA Open Source License,Permissive / BY ,software 
+unlicense,The Unlicense,No restrictions / PD,software 
+zlib,zLib License,Permissive / BY ,software 
+pddl,Open Data Commons Public Domain Dedication and License,No restrictions / PD,data 
+lgpl-lr,Lesser General Public License For Linguistic Resources,Copyleft / SA,data 
+unknown,Unknown,unknown,unknown
+other,Other,other,other
