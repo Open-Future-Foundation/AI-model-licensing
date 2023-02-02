@@ -97,33 +97,3 @@ output
 The `general` folder provides data on the full dataset of around 100 thousand repositories (the dataset grew from less than 80 thousand to over 120 thousand by the latest export on 24/01/2023). On the latest timestamp, approximately 40 thousand repositories had a specified license.
 
 The `filtered` folder only uses repositories with more than 30 cumulative downloads [as counted via the method specified above](#running-the-analysis). With the latest dataset, this reduced the number of analysed repositories to approximately 25 thousand, of which 11 thousand had a specified license. 
-
-## Library use
-
-### Introduction
-
-When we observed that number of repositories using RAIL licenses was increased, we also noted that they appeared to be often using Stable Diffusion, a text-to-image model that was released in 2022 and garnered signficant popularity. This intuition was partially supported by the fact that, while Stable Diffusion’s code is licensed under the MIT license, the model itself is hosted on HuggingFace by its three creators, all using under the CreativeML Open RAIL++-M License:
-* [StabilityAI](https://huggingface.co/stabilityai/stable-diffusion-2/blob/main/LICENSE-MODEL)
-* [RunwayML](https://huggingface.co/runwayml/stable-diffusion-v1-5)
-* [CompVis](https://huggingface.co/CompVis/stable-diffusion)
-
-To verify this intuition quantitatively, we used the `library` tag which some HuggingFace repositories use. This tag is explained in more detail in the [relevant documentation on HuggingFace's website](https://huggingface.co/docs/hub/models-libraries), but it basically allows users to identify the libraries they are using in their repository. 
-
-One of such libraries is called Diffusers (with the id `diffusers`) and, as [this HuggingFace blog post](https://huggingface.co/blog/stable_diffusion) illustrates, it appears to be the main way to signal usage of diffusion models such as Stable Diffusion and others. All three aforementioned official repositories hosting the Stable Diffusion model suggest users to either use the code on GitHub or rely on the Diffusers library, and two of them (CompVis excluded) are themselves tagged with it.
-
-### Methodology
-
-With the data used for the base analysis, we scoped this further investigation to the repositories using a RAIL license (using the categorisation described above).
-
-After this initial selection, we used a Python script to:
-
-1. Group all repositories by the library they used
-2. Exclude all those not declaring any library
-3. Count the number of repositories per library used
-4. Repeat the analysis using a download threshold of 30 cumulative downloads across the four timestamps
-
-### Limitations and assumptions
-
-- While there seems to be significant overlap between usage of Stable Diffusion and the `diffusers` tag, the two are not mutually interchangeable and further qualitative analysis should be conducted to verify what can actually be said about the usage of the `diffusers` tag.
-- One important point is that over 60% of the repositories (when not filtered by downloads) were consistently indicating no library whatsoever. This value peaked at 80% on one specific timestamp, the 31st of October 2022, and then returned to 67% and then 62%.
-- When the analysis was repeated on repositories with over 30 cumulative downloads, the number of those without a library fell to 1 or 2 per each timestamp, with the exception of 8 (representing almost 9% of the total repositories) on 31st October 2022.
